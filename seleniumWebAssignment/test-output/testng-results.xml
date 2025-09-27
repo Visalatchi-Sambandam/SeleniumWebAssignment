@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-27T16:46:06 IST" name="Suite" finished-at="2025-09-27T16:46:42 IST" duration-ms="36368">
+    <groups>
+    </groups>
+    <test started-at="2025-09-27T16:46:06 IST" name="Test" finished-at="2025-09-27T16:46:42 IST" duration-ms="36368">
+      <class name="assignment.tests.PurchaseOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:assignment.tests.PurchaseOrder@179ece50]" started-at="2025-09-27T16:46:09 IST" name="launchApplication" finished-at="2025-09-27T16:46:16 IST" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="purchaseOrder(java.util.HashMap)[pri:0, instance:assignment.tests.PurchaseOrder@179ece50]" started-at="2025-09-27T16:46:16 IST" name="purchaseOrder" data-provider="getData" finished-at="2025-09-27T16:46:41 IST" duration-ms="24959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{product2=Blue Top, product1=Men Tshirt, password=Password@1, email=visalatchi.sam@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment.tests.PurchaseOrder@179ece50]" started-at="2025-09-27T16:46:41 IST" name="tearDown" finished-at="2025-09-27T16:46:42 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment.tests.PurchaseOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
