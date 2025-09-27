@@ -33,37 +33,12 @@ Ensure the following are installed:
 
 ### Steps
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/Visalatchi-Sambandam/SeleniumWebAssignment.git
+                         cd SeleniumWebAssignment
 
-   ```bash
-   git clone https://github.com/Visalatchi-Sambandam/SeleniumWebAssignment.git
-   cd SeleniumWebAssignment
-   ```
+2. Install dependencies: mvn clean install
 
-2. Install dependencies:
-
-   ```bash
-   mvn clean install
-   ```
-
-3. Run tests:
-
-   ```bash
-   mvn test
-   ```
+3. Run tests:  mvn test
 
 4. For parallel test execution, modify the `testng.xml` suite file to specify the desired number of threads.
 
-## 📸 Screenshots
-
-![Test Execution](path_to_screenshot.png)
-
-*Example of test execution in Chrome browser.*
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the paths and details as per your project's specifics. If you need further assistance or additional sections, let me know!
